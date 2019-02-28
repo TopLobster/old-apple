@@ -1,0 +1,87 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 1180px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.top-nav {
+    width: 980px;
+    height: 36px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, rgb(90,90,90) 0%, rgb(100,100,100) 50%, rgb(120,120,120) 50%, rgb(130,130,130) 100%);
+    border: 1px solid gray;
+    position: absolute;
+    margin: auto;
+    top: 18px;
+}
+
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+
+.top-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-nav .nav-button {
+    border-right: 1px solid gray;
+}
+
+.main-picture {
+    background-image: url("../img/your_verse_hero.jpg");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 538px;
+    flex: 1 1 538px;
+    max-height: 1180px;
+}
+
+.other-stories {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+.other-stories a{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+footer {
+    font-size: 10px;
+    padding: 10px 0 30px;
+    margin: auto;
+    width: 980px;
+    flex: 0 0 auto;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div li {
+    display: inline-block;
+}
