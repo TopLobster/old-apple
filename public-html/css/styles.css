@@ -61,7 +61,7 @@ a:hover, a:visited, a:active {
 
 .top-nav li {
     height: 100%;
-    box-shadow: -3.5px 0 3px -3px rgba(0,0,0,1) inset, 
+    box-shadow: -4px 0 2px -3.5px rgba(0,0,0,1) inset, 
                 0 0 5px .1px rgba(255,255,255,.3) inset;
 }
 
@@ -96,7 +96,7 @@ a:hover, a:visited, a:active {
 .nav-button a:hover,
 .nav-button a:focus {
     background: rgba(0,0,0,.4);
-    box-shadow: 0 0 5px 0px rgba(255,255,255, .3) inset;
+    box-shadow: -1px 0 10px -1px rgba(255,255,255, .3) inset;
     border: none;
     outline: none;
 }
@@ -132,6 +132,7 @@ a:hover, a:visited, a:active {
     height: 100%;
     border-left: 1px solid rgba(255,255,255,.1);
     border-right: 1px solid rgba(255,255,255,.1);
+    padding: 0 12px;
     display: flex;
     align-items: center;
 }
@@ -148,9 +149,9 @@ a:hover, a:visited, a:active {
     border-radius: 12px;
     height: 20px;
     width: 100%;
-    margin: 0 12px;
     padding: 2px 4px 1px 20px;
     color: white;
+    font-size: 12px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
