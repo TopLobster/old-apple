@@ -282,7 +282,7 @@ footer {
     font-size: 10px;
     padding: 10px 0 0 0;
     margin: 0 auto;
-    width: 1000px;
+    width: 1024px;
     flex: 0 0 auto;
     position: relative;
     top: -36px;
@@ -292,7 +292,7 @@ footer {
 footer div {
     display: block;
     float: left;
-    width: 500px;
+    width: 50%;
     padding: 15px 0 0 0;
 }
 
@@ -315,9 +315,7 @@ footer div li a {
 }
 
 footer div li img {
-    position: absolute;
-    left: 7px;
-    top: -2px;
+    margin: -5px 0;
 }
 
 footer div ul li:first-child {
